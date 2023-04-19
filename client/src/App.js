@@ -1,6 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import RickshawRoastersHomePage from './Components/RickshawRoastersHomePage';
+import RickshawRoastersOurStoryPage from "./Components/pages/RickshawRoastersOurStoryPage";
+import RickshawRoastersLocationsPage from "./Components/pages/RickshawRoastersLocationsPage";
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -12,12 +15,19 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/pages/locations" element={<RickshawRoastersLocationsPage></RickshawRoastersLocationsPage>} />
+        <Route path="/pages/our-story" element={<RickshawRoastersOurStoryPage></RickshawRoastersOurStoryPage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+        <Route path="/" element={<RickshawRoastersHomePage></RickshawRoastersHomePage>} />
+      </Routes>
+    </Router>
   );
 }
 

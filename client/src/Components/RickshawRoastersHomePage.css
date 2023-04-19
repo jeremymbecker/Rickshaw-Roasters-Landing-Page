@@ -1,0 +1,175 @@
+#RickshawRoastersHomePage{
+    display: flex;
+    flex-direction: column;
+}
+
+#home-page{
+    margin-top: 150px;
+}
+
+#shop-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+}
+
+#shop-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.tile{
+    height: 1000px;
+    width: 100%;
+}
+
+.shop-links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee-beans-image-sizing{
+    width: 95%;
+    height: 95%;
+}
+
+#green-coffee-beans-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 25%;
+}
+
+#roasted-coffee-beans-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#our-story-section{
+    height: 750px;
+}
+
+#our-story-background{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#our-story-background-image{
+    background-repeat: none;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#our-story-text-1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#our-story-text-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#our-story-button{
+    position: absolute;
+    top: 85%;
+    lefT: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Impact, sans-serif;
+    text-decoration: none;
+    background-color: #7B3F00;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    transition: all 0.3s;
+}
+
+#our-story-button:hover{
+    background-color: black;
+    transition: all 0.3s;
+}
+
+#locations-section{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#locations-heading{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+#locations-grid{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 380px 380px;
+    grid-gap: 0.75rem 1.5rem;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.locations-tile{
+    height: 380px;
+    width: 380px;
+}
+
+.locations-links{
+    display: block;
+    height: 380px;
+    width: 380px;
+    text-decoration: none;
+}
+
+.locations-text{
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: Impact, sans-serif;
+    color: white;
+    text-align: center;
+}

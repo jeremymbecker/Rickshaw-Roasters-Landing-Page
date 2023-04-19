@@ -1,0 +1,56 @@
+#footer{
+    height: 500px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+#footer-grid p{
+    font-size: 24px;
+    color: white;
+}
+
+#footer-grid li{
+    list-style-type: none;
+}
+
+#footer-grid ul{
+    padding: 0;
+}
+
+#footer-grid ul li{
+    padding-bottom: 18px;
+}
+
+.footer-listings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+}
+
+#RickshawRoastersFooterLogo{
+    height: 120px;
+    width: 120px;
+}
+
+#rickshaw-roasters-copyright{
+    height: 75px;
+    background-color: #222222;
+    color: white;
+    padding-left: 50px;
+}

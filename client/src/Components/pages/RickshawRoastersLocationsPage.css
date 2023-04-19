@@ -1,0 +1,72 @@
+#RickshawRoastersLocationsPage{
+    display: flex;
+    flex-direction: column;
+}
+
+#locations-page{
+    margin-top: 150px;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations-page-grid{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 775px 775px;
+    grid-gap: 0.75rem 1.5rem;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.locations-page-block{
+    height: 775px;
+    width: 500px;
+}
+
+.locations-page-tile{
+    height: 500px;
+    width: 500px;
+}
+
+.locations-page-links{
+    display: block;
+    height: 500px;
+    width: 500px;
+    text-decoration: none;
+}
+
+.locations-city-text{
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-family: Impact, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.locations-page-addresses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 24px;  
+}
+
+.locations-page-address-links{
+    color: black;
+}
+
+.locations-page-hours{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.locations-page-phone-number-links{
+    color: black;
+}
