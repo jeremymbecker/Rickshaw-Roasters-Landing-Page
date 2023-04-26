@@ -5,6 +5,10 @@ import RickshawRoastersHeader from '../RickshawRoastersHeader';
 import RickshawRoastersFooter from '../RickshawRoastersFooter';
 
 class RickshawRoastersLocationsPage extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    
     render(){
         return(
             <div id="RickshawRoastersLocationsPage">
@@ -24,15 +28,12 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:213XXXXXXX" className="locations-page-phone-number-links">Call (213) XXX-XXXX</a>
                                 </div>
                             </div>
@@ -50,15 +51,12 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:415XXXXXXX" className="locations-page-phone-number-links">Call (415) XXX-XXXX</a>
                                 </div>
                             </div>
@@ -76,15 +74,12 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:206XXXXXXX" className="locations-page-phone-number-links">Call (206) XXX-XXXX</a>
                                 </div>
                             </div>
@@ -102,15 +97,12 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:602XXXXXXX" className="locations-page-phone-number-links">Call (602) XXX-XXXX</a>
                                 </div>
                             </div>
@@ -128,15 +120,12 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:214XXXXXXX" className="locations-page-phone-number-links">Call (214) XXX-XXXX</a>
                                 </div>
                             </div>
@@ -154,20 +143,16 @@ class RickshawRoastersLocationsPage extends React.Component{
                                 </div>
                                 <div className="locations-page-hours">
                                     <br />
-                                    Hours
-                                    <br/>
-                                    Monday - Saturday: 6:00am - 10:00pm
-                                    <br/>
-                                    Sunday 8:00am - 8:00pm
+                                    <p>Hours</p>
+                                    <p>Monday - Saturday: 6:00am - 10:00pm</p>
+                                    <p>Sunday 8:00am - 8:00pm</p>
                                     <br/>
                                 </div>
                                 <div className="locations-page-phone-number">
-                                    <br/>
                                     <a href="tel:702XXXXXXX" className="locations-page-phone-number-links">Call (702) XXX-XXXX</a>
                                 </div>
                             </div>
                         </div>       
-                        
                     </div>
                 </main>
                 <RickshawRoastersFooter />

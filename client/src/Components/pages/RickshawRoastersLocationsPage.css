@@ -67,6 +67,10 @@
     text-align: center;
 }
 
+.locations-page-hours p{
+    margin: 0;
+}
+
 .locations-page-phone-number-links{
     color: black;
 }

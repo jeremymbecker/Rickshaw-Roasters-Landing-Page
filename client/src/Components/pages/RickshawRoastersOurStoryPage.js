@@ -4,6 +4,10 @@ import RickshawRoastersHeader from '../RickshawRoastersHeader';
 import RickshawRoastersFooter from '../RickshawRoastersFooter';
 
 class RickshawRoastersOurStoryPage extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    
     render(){
         return(
             <div>

@@ -18,9 +18,9 @@ class RickshawRoastersHeader extends React.Component{
                 </nav>
                 <nav id="utility-bar" className="header-content">
                     <ul className="nav-utils">
-                            <li><Link to="/pages/partnership" className="nav-link" title="My Account"><i className="fa-solid fa-user"></i> Login</Link></li>
+                            <li><Link to="/account/login" className="nav-link" title="My Account"><i className="fa-solid fa-user"></i> Login</Link></li>
                             <li><button id="search-button" aria-haspopup="true" aria-label="Search"><i className="fa-solid fa-magnifying-glass"></i></button></li>
-                            <li><Link to="/pages/partnership" className="nav-link"><i className="fa-solid fa-cart-shopping"></i></Link></li>
+                            <li><Link to="/cart" className="nav-link"><i className="fa-solid fa-cart-shopping"></i></Link></li>
                     </ul>
                 </nav>
             </header>

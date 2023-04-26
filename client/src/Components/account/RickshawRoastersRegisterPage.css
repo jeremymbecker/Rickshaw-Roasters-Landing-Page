@@ -1,0 +1,59 @@
+#RickshawRoastersRegisterPage{
+    display: flex;
+    flex-direction: column;
+}
+
+#register-page{
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 5px 10px #F0F0F0; 
+}
+
+#register-heading{
+    font-size: 24px;
+}
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-text-email{
+    padding-right: 271px;
+}
+
+.register-text-password{
+    padding-right: 242px;
+}
+
+.register-input{
+    height: 30px;
+    width: 300px;
+}
+
+.register-btns{
+    width: 308px;
+    height: 36px;
+}
+
+#create-account-button{
+    background-color: #7B3F00;
+    color: white;
+    cursor: pointer;
+}
